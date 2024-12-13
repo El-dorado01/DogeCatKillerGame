@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doge Cat Coin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <!-- ===================TOP BAR==================== -->
+    <section class="topbar">
+        <div class="left-logo">
+            <div class="img-logo">
+                <img src="./logo.png" alt="">
+            </div>
+            <div class="logo-text">
+                <span>Doge The</span>
+                <span>Cat Killer</span>
+            </div>
+        </div>
+        <div class="search-panel">
+            <input type="search" name="" id="" placeholder="Type your search...">
+            <img class="icon" src="./search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            <!-- <div class="search-field">
+            </div> -->
+        </div>
+        <div class="change-bg" onclick="changeBg(this)">
+            <img src="./light_mode_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" class="icon light">
+            <img class="icon dark" src="./dark_mode_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="">
+        </div>
+     </section>
+
+     <section class="ca-panel">
+        <div class="ca-address">
+            <span>ASFWYJH********CKLJDF</span>
+        </div>
+        <div class="ca-button" onclick="copyTextToClipBoard('random text')">
+            <img src="./content_copy_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" class="icon">
+            <span id="ca-text">Copy CA</span>
+        </div>
+     </section>
+     <!-- DOGE GAME FRAME -->
+    <section class="doge-game">
+        <!-- <iframe id="game-iframe" src="https://scratch.mit.edu/projects/732444223/embed" allowtransparency="true" style="height: 100%; width: 100%;" frameborder="0" scrolling="no" allowfullscreen></iframe> -->
+    </section>
+    <!-- ===============ACTION ICONS====================== -->
+     <section class="actions-panel">
+        <div class="actions">
+            <div class="action-left">
+                <span class="plays">27 Plays</span>
+                <div class="like-action">
+                    <div class="like">
+                        <img class="icon" src="./thumb_up_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                        <span>like</span>
+                    </div>
+                    <div class="dislike">
+                        <img class="icon" src="./thumb_down_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="action-right">
+                <div class="feedback">
+                    <img class="icon" src="./comment_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <span>Send game feedback</span>
+                </div>
+                <div class="zoom" onclick="displayFullScreen()">
+                    <img src="./crop_free_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" class="icon">
+                </div>
+            </div>
+        </div>
+        <div class="categories">
+            <div class="category">Shooter</div>
+            <div class="category">Adventure</div>
+            <div class="category">Survival</div>
+        </div>
+        <h1>DOGE THE CAT KILLER</h1>
+        <div class="share">
+            <img src="./share_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="" class="icon">
+            <span>Share this game</span>
+        </div>
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, facere atque doloribus, fugiat voluptas dolores esse quas tempora error sit quaerat quis expedita culpa? Aperiam repudiandae illo ullam ipsum tempora!
+        </div>
+        <h3>
+            Controllers: Mouse
+        </h3>
+     </section>
+</body>
+</html>
